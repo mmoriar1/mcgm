@@ -1,0 +1,77 @@
+/*
+
+MAIN COLORS:
+ORANGE:#F27405
+BLUE:#4D8C80
+GREEN:#7C8C03
+RED:#8C0F0F
+GOLD:#F29F05
+ORANGERED:#BF1E0F
+
+*/
+
+*{
+	 -moz-box-sizing: border-box; 
+	 -webkit-box-sizing: border-box; 
+	 box-sizing: border-box; 
+}
+
+body {
+	background: url(../images/bg.png) repeat;
+	color:#fff;
+	font-size:62.5%;
+}
+
+#wrap {
+	margin: 0;
+	width: 100%;
+	padding: 40px
+}
+
+#main .mini {
+	font-size: 2.2em;
+	margin:0px 0px 0px 20px;
+	padding:0px;
+	display:block;
+}
+
+#main .huge {
+	color:#F27405;
+	font-size: 12em;
+	text-shadow: 4px 4px 1px #fff;
+	filter: dropshadow(color=#fff, offx=4, offy=4);
+	display:block;
+	margin:-10px 0 30px 0;
+}
+
+#list {
+	margin:0px 0px 0px 20px;
+}
+
+h2, h3 {
+	font-size:2.2em;
+}
+
+h2 {
+	margin:0 0 20px 0;
+}
+
+h3 {
+	margin:0 0 0 20px;
+}
+
+#list li {
+	list-style: disc inside;
+}
+
+a{
+	color:#F27405;
+}
+
+a:hover {
+	color:#fff;
+}
+
+.red {
+	color:#8C0F0F;
+}
